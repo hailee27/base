@@ -1,0 +1,16 @@
+.contentPopUp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  &:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .title {
+    padding-left: 12px;
+    width: 200px;
+  }
+  .info {
+  }
+}
